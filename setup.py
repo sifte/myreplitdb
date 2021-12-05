@@ -11,6 +11,7 @@ setup(
     version='1.0',
     description='The most simplistic and easiest wrapper to use for replit\'s database system.',
     long_description=readme,
+    long_description_content_type="text/markdown",
     packages=['myreplitdb'],
     include_package_data=True,
     license="MIT",

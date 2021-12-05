@@ -1,6 +1,7 @@
 *main.py
 *.pyc
 *.replit
+myreplitdb/installation.py
 *poetry.lock
 *pyproject.toml
 *.breakpoints
