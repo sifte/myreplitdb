@@ -1,11 +1,6 @@
 ## MyReplitDB
 
-- MyReplitDB is the most simplistic and easiest wrapper to use for replit's database system.
-
-## Installing
-
-- You can install it from the [PyPI](https://pypi.org/project/MyReplitDB/1.2/)
-- Or you can install it from the [Github](https://github.com/kaylebetter/myreplitdb) directly.
+- An easy to use wrapper for replit's database system.
 
 ## Example
 
@@ -18,3 +13,13 @@
 
 hello!
 ```
+
+## Links
+
+- [PyPI](https://pypi.org/project/MyReplitDB/1.2/)
+- [Github](https://github.com/kaylebetter/myreplitdb)
+
+
+## Contributing
+
+- If you wannna contribute to this small wrapper, feel free to make a PR/issue and I'll check it out as soon as I can.
