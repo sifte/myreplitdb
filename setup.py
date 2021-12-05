@@ -5,7 +5,7 @@ with open("README.md") as f:
     readme = f.read()
 
 setup(
-    name='MyDB',
+    name='MyReplitDB',
     author="kaylebetter",
     url="https://github.com/kaylebetter/myreplitdb",
     version='1.0',
