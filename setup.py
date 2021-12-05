@@ -16,7 +16,7 @@ setup(
     include_package_data=True,
     license="MIT",
     project_urls={
-        "Github": "https://github.com/PyTweet/PyTweet/",
+        "Github": "https://github.com/kaylebetter/myreplitdb",
         },
     keywords="myreplitdb",
     install_requires=[

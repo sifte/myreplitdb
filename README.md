@@ -5,9 +5,9 @@
 ## Example
 
 ```py
->>> import mydb
+>>> import myreplitdb
 
->>> db = mydb.Database()
+>>> db = myreplitdb.Database()
 >>> db.insert('test', 'hello!')
 >>> db.get('test')
 
