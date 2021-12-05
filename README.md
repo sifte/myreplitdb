@@ -1,6 +1,6 @@
-## MyDB
+## MyReplitDB
 
-- MyDB is tue most simplistic and easiest wrapper to use for replit's database system.
+- MyReplitDB is the most simplistic and easiest wrapper to use for replit's database system.
 
 ## Example
 
