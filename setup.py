@@ -8,7 +8,7 @@ setup(
     name='MyReplitDB',
     author="kaylebetter",
     url="https://github.com/kaylebetter/myreplitdb",
-    version='1.0',
+    version='1.2',
     description='The most simplistic and easiest wrapper to use for replit\'s database system.',
     long_description=readme,
     long_description_content_type="text/markdown",
