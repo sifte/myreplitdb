@@ -1,0 +1,9 @@
+*main.py
+*.pyc
+*.replit
+*poetry.lock
+*pyproject.toml
+*.breakpoints
+build/
+dist/
+*.egg-info
