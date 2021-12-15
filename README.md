@@ -19,3 +19,5 @@ hello!
 - [PyPI](https://pypi.org/project/MyReplitDB/1.2/)
 - [Github](https://github.com/kaylebetter/myreplitdb)
 
+## Notes
+- I don't recommend people use this since replit's database is like a dictionary, it's way more easier to use than this *library*.
