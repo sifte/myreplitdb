@@ -39,14 +39,14 @@ class Database:
                 f"The key '{key}' was not found"
             )
 
-    def keys(self, type = list):
+    def keys(self, return_obj = list):
         try:        
-            return type(self.db.keys())
+            return return_obj(self.db.keys())
         except Exception as error:
             raise error
 
-    def values(self, type = list):
+    def values(self, return_obj = list):
         try:        
-            return type(self.db.values())
+            return return_obj(self.db.values())
         except Exception as error:
             raise error
