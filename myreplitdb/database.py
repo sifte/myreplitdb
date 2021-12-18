@@ -20,18 +20,7 @@ class Database:
         return data
 
     def set(self, name: str, value: str):
-        if not isinstance(name, str):
-            raise InvalidType(
-                f'Excepted name to be str, got {type(name).__name__}'
-            )
-
-        if not isinstance(value, str):
-            raise InvalidType(
-                f'Excepted value to be str, got {type(value).__name__}'
-            )
-            
-        data = self.db[name] = value
-        return data
+        return self.insert(name, value)
 
     def get(self, key: str):
         try:
@@ -39,7 +28,7 @@ class Database:
             return data
         except:
             raise KeyNotFound(
-                f'The key \'{key}\' was not found'
+                f"The key '{key}' was not found"
             )
 
     def delete(self, key: str):
@@ -47,8 +36,17 @@ class Database:
             del self.db[key]
         except KeyError:
             raise KeyNotFound(
-                f'The key \'{key}\' was not found'
+                f"The key '{key}' was not found"
             )
 
-    def keys(self):
-        return self.db.keys()
+    def keys(self, return_obj = list):
+        try:        
+            return return_obj(self.db.keys())
+        except Exception as error:
+            raise error
+
+    def values(self, return_obj = list):
+        try:        
+            return return_obj(self.db.values())
+        except Exception as error:
+            raise error
