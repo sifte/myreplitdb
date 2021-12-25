@@ -20,4 +20,8 @@ hello!
 - [Github](https://github.com/kaylebetter/myreplitdb)
 
 ## Notes
-- I don't recommend people use this since replit's database is like a dictionary, it's way more easier to use than this *library*.
+### Should I use this?
+- No, definitely not.
+### Should I use ReplitDB?
+- Absolutely not, if you wanna use a real database, use one that uses SQL. 
+- It's synchronous.
