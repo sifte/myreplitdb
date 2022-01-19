@@ -1,7 +1,3 @@
-## MyReplitDB
-
-- An easy to use wrapper for replit's database system.
-
 ## Example
 
 ```py
@@ -18,10 +14,3 @@ hello!
 
 - [PyPI](https://pypi.org/project/MyReplitDB/1.2/)
 - [Github](https://github.com/kaylebetter/myreplitdb)
-
-## Notes
-### Should I use this?
-- No, definitely not.
-### Should I use ReplitDB?
-- Absolutely not, if you wanna use a real database, use one that uses SQL. 
-- It's synchronous.
