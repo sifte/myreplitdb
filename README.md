@@ -12,5 +12,5 @@ hello!
 
 ## Links
 
-- [PyPI](https://pypi.org/project/MyReplitDB/1.2/)
+- [PyPI](https://pypi.org/project/MyReplitDB/)
 - [Github](https://github.com/kaylebetter/myreplitdb)
