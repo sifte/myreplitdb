@@ -1,11 +1,11 @@
 ## Example
 
 ```py
->>> import myreplitdb
+>>> from myreplitdb import database
 
->>> db = myreplitdb.Database()
->>> db.insert('test', 'hello!')
->>> db.get('test')
+>>> db = Database()
+>>> db.insert("test", "hello!")
+>>> db.get("test") # NOTE: Would only work on replit
 
 hello!
 ```
