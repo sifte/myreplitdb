@@ -1,2 +1,2 @@
 from .database import *
-from .errors import *
+from .exceptions import *

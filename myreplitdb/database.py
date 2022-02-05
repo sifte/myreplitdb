@@ -1,5 +1,5 @@
 from replit import db
-from .errors import KeyNotFound, InvalidType
+from .exceptions import InvalidType
 
 class Database:
     def __init__(self):
@@ -22,21 +22,32 @@ class Database:
     def set(self, name: str, value: str):
         return self.insert(name, value)
 
-    def get(self, key: str):
+    def update(self, name: str, value: str):
+        key = self.db.get(name, None)
+
+        if key is None:
+            raise KeyError(
+                f"The key '{name}' was not found"
+            )
+        
+        data = self.db[name] = value
+        return data
+
+    def get(self, name: str):
         try:
-            data = self.db[key]
+            data = self.db[name]
             return data
         except:
-            raise KeyNotFound(
-                f"The key '{key}' was not found"
+            raise KeyError(
+                f"The key '{name}' was not found"
             )
 
-    def delete(self, key: str):
+    def delete(self, name: str):
         try:
-            del self.db[key]
+            del self.db[name]
         except KeyError:
-            raise KeyNotFound(
-                f"The key '{key}' was not found"
+            raise KeyError(
+                f"The key '{name}' was not found"
             )
 
     def keys(self, return_obj = list):
