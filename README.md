@@ -1,16 +1,16 @@
 ## Example
 
 ```py
->>> from myreplitdb import database
+>>> from myreplitdb import Database
 
 >>> db = Database()
 >>> db.insert("test", "hello!")
->>> db.get("test") # NOTE: Would only work on replit
+>>> db.get("test") # NOTE: only works on replit
 
 hello!
 ```
 
-## Links
+## Project Links
 
 - [PyPI](https://pypi.org/project/MyReplitDB/)
-- [Github](https://github.com/kaylebetter/myreplitdb)
+- [Github](https://github.com/sifte/myreplitdb)
