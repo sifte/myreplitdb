@@ -1,3 +1,9 @@
+## MyReplitDB
+
+![Generic badge](https://img.shields.io/badge/Python-3.8-blue.svg) ![Downloads](https://img.shields.io/pypi/dm/MyReplitDB)
+
+A simple wrapper for replit's db.
+
 ## Example
 
 ```py
