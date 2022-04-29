@@ -8,12 +8,12 @@ class Database:
     def insert(self, name: str, value: str):
         if not isinstance(name, str):
             raise InvalidType(
-                f'Excepted name to be str, got {type(name).__name__}'
+                f'Expected name to be str, got {type(name).__name__}'
             )
 
         if not isinstance(value, str):
             raise InvalidType(
-                f'Excepted value to be str, got {type(value).__name__}'
+                f'Expected value to be str, got {type(value).__name__}'
             )
             
         data = self.db[name] = value
